@@ -1,0 +1,118 @@
+html, body {
+	height: 90%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #E5F3FF url(images/img01.png) repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #004C8E;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: left;
+}
+
+.button {
+	width: 100px;
+	display: inline-block;
+	margin-top: 0px;
+	padding: 0px px;
+	background: #1D4D87 url(images/img01.png) repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+    #description{
+        text-align: justify;
+    }
+
+    #table_container {
+        float: left;
+        border-left: 0;
+        margin: auto;
+        padding:0;
+        padding-bottom:30px;
+        display: table;
+    }
+    #users_container {
+        float: left;
+        border-left: 0;
+        margin: auto;
+        padding:0;
+        padding-bottom:30px;
+        display: table;
+    }
+
+    #left {
+        width:250px;
+        padding:1em;
+        background: #CBE0F2;
+        display: table-cell;
+    }
+
+    #right {
+        width:400px;
+        padding:1em;
+        background:#CBE0F2;
+        display: table-cell;
+    }
+
+    #middle {
+        padding: 1em;
+        background:#C1DAF2;
+        display: table-cell;
+    }
+
+    #table_tracker {
+        float: left;
+        border-left: 0;
+        margin: auto;
+        padding:0;
+        display: table;
+    }
+
+    #row  {
+        display: table-row;
+        height: 45px;
+    }
+
+    #tracker_left {
+        width: 250px;
+        padding-left:1em;
+        background: #BACFE0;
+        display: table-cell;
+    }
+
+    #tracker_right {
+        padding:1em;
+        display: table-cell;
+    }
+
+    #tracker_middle {
+        position:relative;
+        padding: 1em;
+        background: #BACFE0 url(images/img01.png) repeat;
+        width: 720px;
+        display: table-cell;
+    }
+
+    #tracker_middle_timeline {
+        position:relative;
+        background: #BACFE0 url(images/timeline.png) no-repeat ;
+        width: 720px;
+        display: table-cell;
+    }

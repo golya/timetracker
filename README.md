@@ -1,4 +1,4 @@
 timetracker
 ===========
 
-timetracker only for practising task with zotonic
+This demo site only for practising task with zotonic.
